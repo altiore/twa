@@ -1,6 +1,6 @@
 {
   "name": "@altiore/twa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React components for Telegram WebApp",
   "source": "./src/index.ts",
   "type": "module",
@@ -86,7 +86,7 @@
     "react-dom": "^18"
   },
   "lint-staged": {
-    "*.(tsx|ts)": [
+    "src/*.(tsx|ts)": [
       "bash -c tsc --noEmit",
       "eslint --fix --max-warnings=0",
       "prettier --write"

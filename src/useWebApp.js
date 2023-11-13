@@ -1,5 +1,4 @@
 import { useWebApp as _useWebApp } from './core';
-
 /**
  * This hook just provides native {@link telegram!WebApp} object
  *
@@ -13,5 +12,4 @@ import { useWebApp as _useWebApp } from './core';
  * @group Hooks
  */
 // const useWebApp = () => _useWebApp() as () => any;
-
 export default _useWebApp;
