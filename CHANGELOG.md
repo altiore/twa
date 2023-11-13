@@ -1,5 +1,11 @@
 # @altiore/twa
 
+## 2.5.0
+
+### Minor Changes
+
+- 9aef703: TwaLoader added
+
 ## 2.1.5
 
 ### Patch Changes
